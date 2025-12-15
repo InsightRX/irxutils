@@ -1,6 +1,8 @@
 #' Invert a character list
 #'
 #' @param obj list object
+#'
+#' @export
 invert_list <- function(obj) {
   new_obj <- list()
   for(key in names(obj)) {

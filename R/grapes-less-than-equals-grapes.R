@@ -4,6 +4,7 @@
 #' @keywords internal
 #' @param x Numeric vector
 #' @param y Numeric vector
+#' @export
 `%<=%` <- function(x, y) {
   if (length(x) == 0 | length(y) == 0) {
     return(logical(0))
