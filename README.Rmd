@@ -24,34 +24,17 @@ The goal of irxutils is to provide miscellaneous generic functions, mostly low-l
 
 ## Installation
 
-You can install the development version of irxutils from [GitHub](https://github.com/) with:
+Install the development version from [GitHub](https://github.com/InsightRX/irxutils) with:
 
 ``` r
 # install.packages("pak")
 pak::pak("InsightRX/irxutils")
 ```
 
-## Example
+## Documentation
 
-This is a basic example which shows you how to solve a common problem:
+See at [`https://insightrx.github.io/irxutils/`](https://insightrx.github.io/irxutils/reference/index.html) and also in the installed package: `help(package = "irxutils")`.
 
-```{r example}
-library(irxutils)
-## basic example code
-```
+## License
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+© InsightRX
