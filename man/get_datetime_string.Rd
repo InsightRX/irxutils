@@ -2,10 +2,22 @@
 % Please edit documentation in R/get_datetime_string.R
 \name{get_datetime_string}
 \alias{get_datetime_string}
-\title{Get datetime as a string, e.g. 202405070550}
+\title{Get datetime as a string}
 \usage{
-get_datetime_string()
+get_datetime_string(x = lubridate::now())
+}
+\arguments{
+\item{x}{A vector of \link{POSIXt}, numeric, or character objects. Defaults to the
+current time.}
+}
+\value{
+The datetime as a string in the form \code{"\%Y\%m\%d\%H\%M"}.
 }
 \description{
-Get datetime as a string, e.g. 202405070550
+Get datetime as a string in the form \code{"\%Y\%m\%d\%H\%M"}. Defaults to returning
+the current datetime.
+}
+\examples{
+get_datetime_string()
+
 }

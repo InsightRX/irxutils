@@ -2,3 +2,8 @@
 ^\.Rproj\.user$
 ^\.github$
 ^docker$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^codecov\.yml$
+^README\.Rmd$
