@@ -2,10 +2,26 @@
 % Please edit documentation in R/underscores_to_dots.R
 \name{underscores_to_dots}
 \alias{underscores_to_dots}
-\title{Convert underscores to dots}
+\alias{dots_to_underscores}
+\title{Convert underscores to dots (and vice versa)}
 \usage{
 underscores_to_dots(x)
+
+dots_to_underscores(x)
+}
+\arguments{
+\item{x}{A character vector.}
+}
+\value{
+The character vector \code{x}, with all underscores converted to dots for
+\code{underscores_to_dots()} and all dots converted to underscores for
+\code{dots_to_underscores()}.
 }
 \description{
-Convert underscores to dots
+Convert underscores to dots (and vice versa)
+}
+\examples{
+underscores_to_dots(c("a_b_c", "d_e_f"))
+dots_to_underscores(c("a.b.c", "d.e.f"))
+
 }
