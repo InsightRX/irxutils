@@ -9,10 +9,25 @@ is_continuous(x, cutoff = 0.8)
 \arguments{
 \item{x}{vector of values}
 
-\item{cutoff}{cutoff value for deciding between continuous/categorical}
+\item{cutoff}{A cutoff value between 0 and 1 for deciding between
+continuous/categorical. Default threshold is 0.8.}
+}
+\value{
+\code{TRUE} if the vector of values is likely to be continuous, otherwise \code{FALSE}.
 }
 \description{
 The function will try to convert all values to numeric. If a certain fraction
-of values is able to convert succesfully, it will assume the vector is
-continuous. Default treshold is 0.8.
+of values is able to convert successfully, it will assume the vector is
+continuous. Default threshold is 0.8.
+}
+\details{
+The function will try to convert all values to numeric. If a certain fraction
+of values is able to convert successfully, it will assume the vector is
+continuous.
+}
+\examples{
+is_continuous(1:3)
+is_continuous(c(1, 3, 5))
+is_continuous(c("a", 1))
+
 }

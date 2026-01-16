@@ -9,6 +9,13 @@ random_string(n = 5)
 \arguments{
 \item{n}{number of characters for random string}
 }
+\value{
+A string of random letters with \code{n} characters.
+}
 \description{
 Random string
+}
+\examples{
+random_string(3)
+
 }

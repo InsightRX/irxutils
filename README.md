@@ -1,13 +1,34 @@
-<!-- badges: start -->
-[![R-CMD-check](https://github.com/InsightRX/irxutils/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/InsightRX/irxutils/actions/workflows/R-CMD-check.yaml)
-  <!-- badges: end -->
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # irxutils
 
-Miscellaneuous generic functions, mostly low-level for use in packages.
+<!-- badges: start -->
 
-Manual installation:
+[![R-CMD-check](https://github.com/InsightRX/irxutils/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/InsightRX/irxutils/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/InsightRX/irxutils/graph/badge.svg)](https://app.codecov.io/gh/InsightRX/irxutils)
+<!-- badges: end -->
 
-```r
-remotes::install_github("InsightRX/irxutils")
+The goal of irxutils is to provide miscellaneous generic functions,
+mostly low-level, for use in InsightRX packages.
+
+## Installation
+
+Install the development version from
+[GitHub](https://github.com/InsightRX/irxutils) with:
+
+``` r
+# install.packages("pak")
+pak::pak("InsightRX/irxutils")
 ```
+
+## Documentation
+
+See at
+[`https://insightrx.github.io/irxutils/`](https://insightrx.github.io/irxutils/reference/index.html)
+and also in the installed package: `help(package = "irxutils")`.
+
+## License
+
+MIT © InsightRX
