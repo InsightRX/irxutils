@@ -31,4 +31,4 @@ and also in the installed package: `help(package = "irxutils")`.
 
 ## License
 
-© InsightRX
+MIT © InsightRX
