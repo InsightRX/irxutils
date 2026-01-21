@@ -1,17 +1,18 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>/404.html</loc></url>
-<url><loc>/LICENSE-text.html</loc></url>
-<url><loc>/authors.html</loc></url>
-<url><loc>/index.html</loc></url>
-<url><loc>/reference/dots_to_underscores.html</loc></url>
-<url><loc>/reference/get_datetime_string.html</loc></url>
-<url><loc>/reference/get_na_between_non_na.html</loc></url>
-<url><loc>/reference/grapes-greater-than-equals-grapes.html</loc></url>
-<url><loc>/reference/grapes-less-than-equals-grapes.html</loc></url>
-<url><loc>/reference/index.html</loc></url>
-<url><loc>/reference/invert_list.html</loc></url>
-<url><loc>/reference/is_continuous.html</loc></url>
-<url><loc>/reference/random_string.html</loc></url>
-<url><loc>/reference/underscores_to_dots.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/404.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/LICENSE-text.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/LICENSE.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/authors.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/index.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/news/index.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/get_datetime_string.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/get_na_between_non_na.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/index.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/invert_list.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/irxutils-package.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/is_continuous.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/random_string.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/safe-comparison.html</loc></url>
+<url><loc>https://insightrx.github.io/irxutils/reference/underscores_to_dots.html</loc></url>
 </urlset>
 
