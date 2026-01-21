@@ -9,6 +9,13 @@ invert_list(obj)
 \arguments{
 \item{obj}{list object}
 }
+\value{
+The list object, with values and names inverted.
+}
 \description{
 Invert a character list
+}
+\examples{
+invert_list(list(a = "b"))
+
 }
