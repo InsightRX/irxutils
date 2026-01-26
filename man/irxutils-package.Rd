@@ -8,6 +8,13 @@
 \description{
 Small generic functions for e.g. string and object manipulations, datetime parsing, etc.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://insightrx.github.io/irxutils/}
+}
+
+}
 \author{
 \strong{Maintainer}: Ron Keizer \email{ron@insight-rx.com}
 
