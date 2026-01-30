@@ -24,5 +24,5 @@ The datetime as a string in the form `"%Y%m%d%H%M"`.
 
 ``` r
 get_datetime_string()
-#> [1] "202601262200"
+#> [1] "202601300622"
 ```
