@@ -3,6 +3,9 @@
 #' @param prefix optional prefix
 #'
 #' @returns character
+#' 
+#' @export
+#' 
 get_random_id <- function(prefix = NULL, n = 6) {
   paste0(
     prefix,
